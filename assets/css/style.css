@@ -1,0 +1,40 @@
+body {
+    font-family: 'Unkempt', cursive;
+    font-size: 1.5vw;
+}
+.jumbotron{
+    background: url("/Users/Caitlin/Desktop/trains/assets/images/train.jpg"); 
+    background-position: -.5vw;
+}
+#jtronText {
+    text-align: center;
+    color: rgb(39, 41, 43);
+}
+.title {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 6vw;
+}
+.subText {
+    font-size: 3vw;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: rgb(39, 41, 43);
+}   
+#chooChoo {
+    float: right;
+}
+.card {
+    border: none;
+}
+
+@media only screen and (max-width: 700px) {
+    #chooChoo {
+        clear: left;
+        float: left;
+    }
+    tSchedule {
+        float: left;
+    }
+    .card {
+        padding: 5vw;
+    }
+}
